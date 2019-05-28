@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <!-- 新建项目的描述信息 -->
+    <groupId>com.happy.sb</groupId>
+    <artifactId>sb_demo</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <packaging>jar</packaging>
+
+    <name>sb_demo</name>
+    <description>Demo project for Spring Boot</description>
+
+    <!-- 父项目
+        Spring Boot的版本仲裁中心。
+        以后导入依赖默认不需要写版本号。
+        没有在dependencies里管理的依赖除外，需要声明版本号。
+     -->
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.0.3.RELEASE</version>
+        <relativePath/> <!-- lookup parent from repository -->
+        <!--
+        父项目的父项目，用来管理Spring Boot应用所有依赖版本
+        <parent>
+             <groupId>org.springframework.boot</groupId>
+             <artifactId>spring-boot-dependencies</artifactId>
+             <version>2.0.3.RELEASE</version>
+             <relativePath>../../spring-boot-dependencies</relativePath>
+         </parent>
+         -->
+    </parent>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <java.version>1.8</java.version>
+    </properties>
+
+    <dependencies>
+        <!-- 启动器
+             Spring boot将所有的功能场景都抽取出来，做成了一个个的starter(启动器)，
+             只需要在项目里引入这些starter，相关场景的所有依赖都会导入进来。
+
+            spring-boot-starter：spring boot场景启动器
+                            web:自动导入web模块正常运行所依赖的组件
+
+        -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-configuration-processor</artifactId>
+            <optional>true</optional>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <!-- 该插件可以将应用打包成一个可执行的jar -->
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
+
+
+</project>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <!--dispacher负责告知下一站在哪里-->
+    <!--props 将/hello路径的信息交给helloController控制器处理-->
+    <!--    <bean id="simpleUrlHandlerMapping"
+          class="org.springframework.web.servlet.handler.SimpleUrlHandlerMapping">
+     &lt;!&ndash;   <property name="mappings">
+            <props>
+                &lt;!&ndash; /hello 路径的请求交给 id 为 helloController 的控制器处理&ndash;&gt;
+                <prop key="/hello">helloController</prop>
+            </props>
+        </property>&ndash;&gt;
+    </bean>
+    <bean id="helloController" class="controller.HelloController"></bean>-->
+    <!--扫描包controller下的组件 扫描所有注解/-->
+    <context:component-scan base-package="controller"/>
+    <!--配置视图层的前缀和后缀 导入的是view包 配置prefix suffix-->
+    <!--配置好前缀 方便移动 配置好后缀 减少书写-->
+    <bean id="viewResolver"
+          class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+        <property name="prefix" value="/WEB-INF/page/" />
+        <property name="suffix" value=".jsp" />
+    </bean>
+    <!--这边是配置上传解析器 先要io 和 fileupdate jar包-->
+    <bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver"/>
+</beans>

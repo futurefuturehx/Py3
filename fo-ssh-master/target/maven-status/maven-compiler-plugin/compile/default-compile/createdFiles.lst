@@ -1,0 +1,6 @@
+com\phn\dao\impl\UserDaoImpl.class
+com\phn\dao\IUserDao.class
+com\phn\service\IUserService.class
+com\phn\model\UserEntity.class
+com\phn\controller\UserController.class
+com\phn\service\impl\UserServiceImpl.class
