@@ -18,7 +18,7 @@ $(document).ready(function(){
 
 ## JQuery常用方法
 
-+ $(document).ready(function) : 当DOM就绪时执行
++ $(document).ready(function) : 当DOM再次加载时执行
 + $(selector).click(function) : 当某个元素被点击时执行
 + $(selector).dblclick(function) : 当某个元素被双击时执行
 + $(selector).focus(function) : 当聚焦于输入框时执行
