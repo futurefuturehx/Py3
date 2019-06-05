@@ -118,3 +118,6 @@ $(".flip").click(function(){
 ```
 
 点击flip类 对panel类进行收缩
+
+
+
