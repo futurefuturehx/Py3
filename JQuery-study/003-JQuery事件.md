@@ -12,7 +12,7 @@ $(document).ready(function(){
 </script>
 ```
 
-   $\textcolor{red}{T:属性是对元素的补充说明与选择}$
+   属性是对元素的补充说明与选择
 
 
 
