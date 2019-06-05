@@ -52,3 +52,4 @@ public class UserServiceImpl implements UserService {
 改为getbean方式创建类
 
 DI在IOC的基础上实现 IOC实现类的创建交给Spring管理 DI实现属性的注入交给Spring管理
+
