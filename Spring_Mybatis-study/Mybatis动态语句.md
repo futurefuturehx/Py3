@@ -1,36 +1,4 @@
-
-
-# Mybatis面试题
-
-## Mybatis相对于IBatis的改进
-
-a.动态sql由节点配置改成OGNL表达式
-
-b.有接口绑定 包括注解绑定和xml绑定Sql
-
-
-
-## 什么是MyBatis的接口绑定 有啥好处
-
-将接口里的方法与SQL语句联系起来 调用方法就能执行对应SQL语句 这样就能便捷选择 灵活配置
-
-
-
-# 接口绑定有几种方式 分别怎么实现
-
-a.在接口方法前加上@Select @Update等注解 里面包含Sql语句
-
-b.通过xml里写SQL来绑定 此时 xml的namespace必须为接口路径名
-
-
-
-##什么时候用xml绑定 什么时候用xml绑定
-
-当SQL语句比较复杂的时候 用xml绑定 一般用xml绑定较多
-
-
-
-## MyBatits的动态语句
+#MyBatits的动态语句
 
 ```sql
 <!-- 2 if(判断参数) - 将实体类不为空的属性作为where条件 -->  
