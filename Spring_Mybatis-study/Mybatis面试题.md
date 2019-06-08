@@ -1,3 +1,5 @@
+
+
 # Mybatis面试题
 
 ## Mybatis相对于IBatis的改进
@@ -75,7 +77,7 @@ b.通过xml里写SQL来绑定 此时 xml的namespace必须为接口路径名
 
 ## Mybatis实现一对多的查询
 
-```
+```xml
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
@@ -160,11 +162,6 @@ select orders.*,t_user.address,t_user.name,t_user.brithday from orders, t_user w
 select orders.*,t_user.address,t_user.name,t_user.brithday from orders, t_user where orders.userid=t_user.id
     </select>
 </mapper>
-
-作者：西安公交巴士
-链接：https://www.jianshu.com/p/42dc7598eb70
-来源：简书
-简书著作权归作者所有，任何形式的转载都请联系作者获得授权并注明出处。
 ```
 
 
