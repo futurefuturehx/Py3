@@ -1,0 +1,7 @@
+com\cloudfoundry\demo\repositories\jpa\JpaUserRepository.class
+com\cloudfoundry\demo\repositories\redis\RedisUserRepository.class
+com\cloudfoundry\demo\App.class
+com\cloudfoundry\demo\bean\RandomIdGenerator.class
+com\cloudfoundry\demo\config\SpringApplicationContextInitializer.class
+com\cloudfoundry\demo\repositories\UserRepositoryPopulator.class
+com\cloudfoundry\demo\bean\User.class

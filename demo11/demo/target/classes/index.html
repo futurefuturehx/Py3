@@ -1,0 +1,48 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Insert title here</title>
+<style>
+#form {
+	width: 300px;
+	height: 160px;
+	position: relative;
+	left: 50%;
+	top: 50%;
+	margin-left: 250px;
+	margin-top: 150px;
+}
+</style>
+<link href="css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body background="img/background.jpg">
+	<div class="container">
+		<div class="row myCenter">
+			<div class="col-xs-6 col-md-4 col-center-block">
+				<form class="form-signin smart-form" id="form" action="loginCheck"
+					method="get">
+					<h2 class="form-signin-heading">请登录</h2>
+					<br>
+					<!-- <label for="username" class="sr-only">用户名</label>  -->
+
+					<input type="text" name="username" class="form-control"
+						placeholder="用户名" required autofocus>
+					<br>
+					<!-- <label for="inputPassword" class="sr-only">密码</label> -->
+					<input type="password" name="password" class="form-control"
+						placeholder="密码" required> 
+					<div class="checkbox">
+						<a class="btn btn-primary"
+							style="height: 40px; width: 110px; margin-right: 70px"
+							href="/register">注册</a> <a class="btn btn-primary"
+							style="height: 40px; width: 110px" href="/modify">修改密码</a>
+					</div>
+					<button class="btn btn-lg btn-primary btn-block" type="submit">登录</button>
+				</form>
+			</div>
+		</div>
+	</div>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+</body>

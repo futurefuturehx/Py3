@@ -113,7 +113,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="950" />
-    <option name="width" value="979" />
+    <option name="width" value="980" />
     <option name="height" value="1040" />
   </component>
   <component name="ProjectView">
@@ -122,10 +122,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Course" />
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Course" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -514,6 +514,7 @@
       <workItem from="1501721112199" duration="14898000" />
       <workItem from="1557220085856" duration="9288000" />
       <workItem from="1557336931820" duration="545000" />
+      <workItem from="1560415893616" duration="14000" />
     </task>
     <servers />
   </component>
@@ -550,7 +551,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42023000" />
+    <option name="totallyTimeSpent" value="42037000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -562,10 +563,11 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="760" y="0" width="783" height="832" extended-state="0" />
+    <frame x="760" y="0" width="784" height="832" extended-state="0" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="7" />
+      <window_info anchor="right" id="RestServices" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Application Servers" order="8" />
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.32985073" />
@@ -578,6 +580,7 @@
       <window_info id="UI Designer" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3293011" />
+      <window_info anchor="right" id="Codota" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
@@ -586,9 +589,9 @@
       <window_info anchor="bottom" id="Run" order="2" weight="0.43568465" />
       <window_info anchor="bottom" id="Spring" order="8" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Problems" order="7" weight="0.3293011" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.45773733" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.47107437" />
       <window_info anchor="bottom" id="Run with VisualVM" order="7" />
+      <window_info anchor="bottom" id="Problems" order="7" weight="0.3293011" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -599,8 +602,8 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Messages" order="7" weight="0.32831737" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32994187" />
-      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="0" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -610,6 +613,23 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/test/com/test/dao/UserDaoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="36" column="48" selection-start-line="36" selection-start-column="48" selection-end-line="36" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="26" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/com/test/dao/UserDaoTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
@@ -822,12 +842,12 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2280">
           <caret line="114" column="15" selection-start-line="114" selection-start-column="15" selection-end-line="114" selection-end-column="15" />
         </state>
       </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">

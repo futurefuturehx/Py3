@@ -1,0 +1,27 @@
+[
+    {
+        "_class": "com.cloudfoundry.demo.bean.User",
+        "username": "aa",
+        "password": "aa"
+    },
+    {
+        "_class": "com.cloudfoundry.demo.bean.User",
+        "username": "bb",
+        "password": "bb"
+    },
+    {
+        "_class": "com.cloudfoundry.demo.bean.User",
+        "username": "cc",
+        "password": "cc"
+    },
+    {
+        "_class": "com.cloudfoundry.demo.bean.User",
+        "username": "dd",
+        "password": "dd" 
+    },
+   {
+        "_class": "com.cloudfoundry.demo.bean.User",
+        "username": "ee",
+        "password": "ee" 
+    }
+]
